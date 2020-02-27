@@ -10,4 +10,4 @@ services:
 
     volumes:
       - "./nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
-      - "./nginx/main:/usr/share/nginx/html:ro"
+      - "./main:/usr/share/nginx/html:ro"
